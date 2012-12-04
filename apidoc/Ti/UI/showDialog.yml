@@ -6,4 +6,4 @@ since: 0.4.0
 platforms: ['osx', 'linux', 'win32']
 returns: UI.Dialog
 parameters: 
-    - [Object, params, options to pass in to create window]
+    - [Object, params, Options defining the dialog window. These params are passed directly into Ti.UI.createWindow]
